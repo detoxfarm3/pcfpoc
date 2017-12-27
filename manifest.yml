@@ -1,6 +1,7 @@
 --
 applications:
 - name: nodescheduling
+  command: node hello.js
   memory: 128M
   instances: 1
   host: nodejs-${random-word}
