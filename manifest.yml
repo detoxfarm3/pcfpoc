@@ -1,6 +1,6 @@
----
+--
 applications:
-- name: nodejs
+- name: nodescheduling
   memory: 128M
   instances: 1
   host: nodejs-${random-word}
