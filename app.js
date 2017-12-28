@@ -1,4 +1,4 @@
-async function hello() {
+function hello() {
     console.log('hello');
     process.exit(0);
 }
