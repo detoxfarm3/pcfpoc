@@ -1,6 +1,13 @@
+---
 applications:
-- name: nodescheduling
+- name: etf-sf
+  host: etf-sf-dev
+  no-route: true
+  services:
+    - scheduler-service   
+  env:
+    config-server-app-name: "etf-sf"
+    config-server-profile: "dev"
   memory: 128M
+  disk_quota: 128M
   instances: 0
-  host: nodejs-${random-word}
-  path: .
